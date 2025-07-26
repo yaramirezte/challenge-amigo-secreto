@@ -67,14 +67,16 @@ Este proyecto fue desarrollado siguiendo metodología ágil, con tareas organiza
 ---
 
 ## 🗂 Estructura del proyecto
-\```/amigo-secreto
+```
+/amigo-secreto
 │
-├── index.html # Estructura de la página (proporcionado por Alura)
-├── style.css # Estilos (proporcionado por Alura)
-├── app.js # Lógica en JavaScript (desarrollada por mí)
-├── README.md # Documentación del proyecto
-└── /assets # Imágenes del proyecto y capturas de pantalla 
-\```
+├── index.html         # Estructura de la página (proporcionado por Alura)
+├── style.css          # Estilos (proporcionado por Alura)
+├── app.js             # Lógica en JavaScript (desarrollada por mí)
+├── README.md          # Documentación del proyecto
+└── /assets            # Imágenes del proyecto y capturas de pantalla
+
+```
 
 ---
 
