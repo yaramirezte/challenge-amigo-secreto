@@ -91,4 +91,5 @@ Este proyecto fue desarrollado siguiendo metodología ágil, con tareas organiza
 
 Puedes contactarme en:  
 - GitHub: [yaramirezte](https://github.com/yaramirezte)  
+- Linkedin: [www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm](https://www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm/)
 - Email: yaramirezte@gmail.com
