@@ -1,4 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
 let nombresDeAmigos=[];
 
@@ -9,32 +8,55 @@ function agregarAmigo(){
 
     }else{
         nombresDeAmigos.push(document.getElementById("amigo").value);
+
         cleanCaja()
-        console.log(nombresDeAmigos);       
+
+        console.log(nombresDeAmigos); 
+
+        agregarLista(nombresDeAmigos);    
         
     }
-    agregarLista(nombresDeAmigos);
-    nombresDeAmigos.length=0;  
+    
+    
     //document.getElementById("listaAmigos").innerHTML = "";
+    console.log(nombresDeAmigos);
     
        
 }
 
-
-
+//funcion para agregar los amigos al <ul>
 function agregarLista(elementos){
-    const ul=document.getElementById("listaAmigos");
-    let li=0
-    for(i=0;i<elementos.length;i++){
-        li=document.createElement("li");
-        li.textContent=elementos[i];
-        ul.appendChild(li); 
-        console.log(li);        
-    }
-    
+    let li=0;    
+    const ul=document.getElementById("listaAmigos"); //capturamos
+    li=document.createElement("li"); //creamos el elemento 
+    li.textContent=elementos[elementos.length -1];
+    ul.appendChild(li); //lo agregamos a <ul>
+    console.log(li);       
 
 }
 
+//funcion para limpiar caja
 function cleanCaja(){
     document.querySelector("#amigo").value="";
+}
+
+
+//funcion para sortear cuando demos click en el boton sortear amigo
+function sortearAmigo(){
+    document.getElementById("listaAmigos").innerHTML = "";
+    let amigoSecreto=0;
+    //const indices=[];
+    if(nombresDeAmigos.length == 0 ){
+        alert("No es posible sortear, usted debe ingresar los nombres de sus amigos");
+
+    } else{
+       // listaRevision.forEach(function(elemento, indice){
+        //indices.push(indice)}); //pasamos 
+        amigoSecreto=Math.floor(Math.random()*nombresDeAmigos.length-1)+1
+        const ul=document.getElementById("listaAmigos"); //capturamos
+        li=document.createElement("li"); //creamos el elemento 
+        li.textContent=`El amigo secreto sorteado es ${nombresDeAmigos[amigoSecreto]}`;
+        ul.appendChild(li); //lo agregamos a <ul>
+        console.log(li);
+    }   
 }
