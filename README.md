@@ -1,28 +1,27 @@
 # 🎁 Proyecto Amigo Secreto
 
-Este proyecto es una aplicación web interactiva que permite registrar nombres de amigos y realizar un sorteo aleatorio para determinar un "amigo secreto". Fue desarrollado en el marco del curso de **JavaScript** de [Alura Latam](https://www.aluracursos.com/), siguiendo prácticas de desarrollo ágil.
+_Una aplicación web interactiva para registrar participantes y realizar un sorteo aleatorio de "amigo secreto"._
+
+Este proyecto fue desarrollado como parte del curso de **JavaScript** en **Alura Latam**, aplicando buenas prácticas de desarrollo ágil, control de versiones y estructuración profesional de proyectos.
 
 ---
 
 ## 📌 Descripción
 
-La interfaz HTML y los estilos CSS fueron proporcionados por el equipo de Alura, mientras que la **lógica de programación en JavaScript fue implementada desde cero por mí**, incluyendo:
+La aplicación permite a los usuarios ingresar nombres de amigos, mostrarlos dinámicamente en pantalla y realizar un sorteo aleatorio para elegir un “amigo secreto”.
 
-- Registro dinámico de participantes
-- Validación de entrada
-- Actualización automática del DOM
-- Lógica de sorteo aleatorio
-- Limpieza del campo de entrada
+- La interfaz en **HTML** y los estilos en **CSS** fueron proporcionados por el equipo de Alura.
+- Toda la lógica de programación en **JavaScript** fue implementada por mí desde cero.
 
 ---
 
 ## 🛠️ Funcionalidades
 
-- ✅ Agregar nombres de participantes a una lista
-- 🧹 Validación y limpieza del campo de entrada
-- 📝 Renderizado automático de los nombres en la pantalla
-- 🎲 Sorteo aleatorio de un "amigo secreto"
-- ⚠️ Mensajes de advertencia si no se ingresan nombres
+✅ **Agregar nombres**: Los usuarios pueden escribir el nombre de un amigo en un campo de texto y agregarlo a una lista visible haciendo clic en el botón **"Adicionar"**.  
+🧹 **Validación de entrada**: Si el campo está vacío, se muestra un mensaje de advertencia solicitando un nombre válido.  
+📝 **Visualización automática**: Los nombres ingresados se muestran automáticamente en una lista debajo del campo de entrada.  
+🎲 **Sorteo aleatorio**: Al hacer clic en el botón **"Sortear Amigo"**, se selecciona y muestra aleatoriamente un nombre de la lista.  
+⚠️ **Mensajes de advertencia**: Se emiten alertas si se intenta realizar el sorteo sin haber agregado nombres.
 
 ---
 
@@ -31,15 +30,31 @@ La interfaz HTML y los estilos CSS fueron proporcionados por el equipo de Alura,
 - **HTML5** (proporcionado por Alura)
 - **CSS3** (proporcionado por Alura)
 - **JavaScript ES6** (desarrollado por mí)
-- **Git y GitHub** (control de versiones)
-- **Trello** (gestión de tareas con metodología ágil)
+- **Git & GitHub** (control de versiones)
+- **Trello** (gestión de tareas y metodología ágil)
 
 ---
 
-## Metodología y control de versiones
+## 🔄 Proceso de desarrollo
 
-Este proyecto fue desarrollado siguiendo metodología ágil, con tareas organizadas en Trello y versiones controladas mediante Git. Se realizaron commits para documentar avances y mejoras.
+- El repositorio fue creado localmente con Git y vinculado con GitHub.
+- Se realizaron *commits* progresivos documentando avances y mejoras.
+- Las tareas fueron organizadas en Trello, simulando un entorno ágil de trabajo (Scrum/Kanban).
 
+---
+
+## 🗂 Estructura del proyecto
+
+```
+/amigo-secreto
+│
+├── index.html         # Estructura de la página (proporcionado por Alura)
+├── style.css          # Estilos (proporcionado por Alura)
+├── app.js             # Lógica en JavaScript (desarrollada por mí)
+├── README.md          # Documentación del proyecto
+└── /assets            # Imágenes del proyecto y capturas de pantalla
+
+```
 ---
 
 ## 💻 Capturas de pantalla
@@ -58,38 +73,15 @@ Este proyecto fue desarrollado siguiendo metodología ágil, con tareas organiza
 
 ---
 
-## 🔄 Proceso de desarrollo
+## 👤 Autores
 
-- El repositorio fue creado desde **Git** de forma local y vinculado con GitHub.
-- Se realizaron **commits progresivos** durante el desarrollo, siguiendo buenas prácticas de control de versiones.
-- Las tareas fueron organizadas en **Trello**, simulando un entorno ágil de trabajo (tipo Scrum/Kanban).
-
----
-
-## 🗂 Estructura del proyecto
-```
-/amigo-secreto
-│
-├── index.html         # Estructura de la página (proporcionado por Alura)
-├── style.css          # Estilos (proporcionado por Alura)
-├── app.js             # Lógica en JavaScript (desarrollada por mí)
-├── README.md          # Documentación del proyecto
-└── /assets            # Imágenes del proyecto y capturas de pantalla
-
-```
+**Yeni Andrea Ramírez Téllez** – Desarrollo de la lógica en JavaScript.  
+Proyecto basado en diseño y materiales proporcionados por Alura.
 
 ---
 
-## Autores
+## 📬 Contacto
 
-- [Yeni Andrea Ramirez Tellez](https://github.com/yaramirezte) – Desarrollador de la lógica en JavaScript.
-- Proyecto basado en material y diseño proporcionado por Alura.
-
----
-
-## Contacto
-
-Puedes contactarme en:  
-- GitHub: [yaramirezte](https://github.com/yaramirezte)  
-- Linkedin:[www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm](https://www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm/)
-- Email: yaramirezte@gmail.com
+- **GitHub:** [yaramirezte](https://github.com/yaramirezte)  
+- **LinkedIn:** [Yeni Andrea Ramírez Téllez](https://www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm)  
+- **Email:** yaramirezte@gmail.com
